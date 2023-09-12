@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cssMemeSlider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<section class="container">
-    <div class="slider__wrapper">
-        <div class="slider">
-            <div class="slide" id="slide-1">
-                <img src="img/slide1.jpg">
-                <p>Text kak riba plivet i ne tonet!!!</p>
+    <section class="container">
+        <div class="slider__wrapper">
+            <input type="radio" name="radio-btn" id="radio-1" checked>
+            <input type="radio" name="radio-btn" id="radio-2">
+            <input type="radio" name="radio-btn" id="radio-3">
+            <input type="radio" name="radio-btn" id="radio-4">
+            <div class="slider">
+                <div class="first slide" id="slide-1">
+                    <img src="img/slide1.jpg">
+                </div>
+                <div class="slide" id="slide-2">
+                    <img src="img/slide2.jpg">
+                </div>
+                <div class="slide" id="slide-3">
+                    <img src="img/slide3.jpg">
+                </div>
+                <div class="slide" id="slide-4">
+                    <img src="img/slide4.jpg">
+                </div>
             </div>
-            <div class="slide" id="slide-2">
-                <img src="img/slide2.jpg">
-                <p>Text kak riba plivet i ne tonet!!! slide2</p>
+            <div class="text">
+                <p class="slide-1 slide-text">Slide1!!! Ты супермпупер мега</p>
+                <p class="slide-2 slide-text">Slide2!!! Ты супермпупер мега</p>
+                <p class="slide-3 slide-text">Slide3!!! Ты супермпупер мега</p>
+                <p class="slide-4 slide-text">Slide4!!! Ты супермпупер мега</p>
             </div>
-            <div class="slide" id="slide-3">
-                <img src="img/slide3.jpg">
-                <p>Text kak riba plivet i ne tonet!!! slide3</p>
-            </div>
-            <div class="slide" id="slide-4">
-                <img src="img/slide4.jpg">
-                <p>Text kak riba plivet i ne tonet!!! slide4</p>
+            <div class="navigation">
+                <label for="radio-1" class="navigation-btn"><span></span></label>
+                <label for="radio-2" class="navigation-btn"><span></span></label>
+                <label for="radio-3" class="navigation-btn"><span></span></label>
+                <label for="radio-4" class="navigation-btn"><span></span></label>
             </div>
         </div>
-        <div class="slider__nav">
-            <a href="#slide-1"></a>
-            <a href="#slide-2"></a>
-            <a href="#slide-3"></a>
-            <a href="#slide-4"></a>
-        </div>
-    </div>
-</section>
+    </section>
 </body>
+
 </html>
