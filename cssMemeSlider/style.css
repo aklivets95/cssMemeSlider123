@@ -150,7 +150,7 @@ input[type=radio] {
     flex-shrink: 0;
     margin: 0;
     color: #304151;
-    font-size: 2.1em;
+    font-size: 1.9em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -202,5 +202,9 @@ input[type=radio] {
 
     .navigation {
         justify-self: center;
+    }
+
+    .slide-text {
+        font-size: 1.5em;
     }
 }
